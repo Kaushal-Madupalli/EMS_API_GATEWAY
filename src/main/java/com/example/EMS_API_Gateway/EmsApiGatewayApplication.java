@@ -16,7 +16,7 @@ public class EmsApiGatewayApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EmsApiGatewayApplication.class, args);
 	}
-
+   // cors
 	@Bean
 	public CorsWebFilter corsWebFilter() {
 		CorsConfiguration corsConfig = new CorsConfiguration();
